@@ -1,5 +1,5 @@
 ## :camera: Demonstração
-<h1 align="center"> <img alt="resultado" src="https://github.com/Samuel-Rodrigues/check_plant_mobile/blob/master/checkPlantGIF.gif"/>
+<h1 align="center"> <img alt="resultado" src="https://github.com/Samuel-Rodrigues/santos-lab-teste/blob/master/demoSantosLab.gif"/>
 </h1>
 
 ## :rocket: Sobre o projeto
