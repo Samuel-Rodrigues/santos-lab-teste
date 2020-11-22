@@ -73,6 +73,7 @@ const FormLogin: React.FC = () => {
             value={dadosLogin.email || ''}
             onChange={(e) => setDadosLogin({ ...dadosLogin, email: e.target.value })} />
           <InputLogin label="Senha" variant="outlined" required
+            type="password"
             value={dadosLogin.password || ''}
             onChange={(e) => setDadosLogin({ ...dadosLogin, password: e.target.value })} />
           <Button variant="contained" color="primary" onClick={() => verificarAutenticacao()}>
