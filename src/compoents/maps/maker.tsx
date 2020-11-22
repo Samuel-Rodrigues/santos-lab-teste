@@ -63,7 +63,7 @@ const Marker: React.FC<props> = ({ nome, tipoColheta, historico }) => {
               <span key={hist.month}>Mês {hist.month} - valor: {hist.value}</span>
             ))}</ScrollbarMarker>
           <ScrollbarMarker>
-            <p>Quanidade de meses: {mesesTotal()}</p>
+            <p>Quantidade de meses: {mesesTotal()}</p>
             <p>Valor total: {valorTotal()}</p>
           </ScrollbarMarker>
         </CardMakerMap>
