@@ -1,4 +1,4 @@
-import Usuario, { UsuarioActionTypes, salvarUsuariosNoReducer } from './types'
+import Usuario, { UsuarioActionTypes, salvarUsuariosNoReducer } from './types';
 
 export const actionCreators = {
   salvarUsuariosNoReducer: (usuarios: Array<Usuario>) =>

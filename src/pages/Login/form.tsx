@@ -1,14 +1,13 @@
 import React, { useState, useEffect } from 'react';
-
-import { Usuarios } from '../../services/api'
 import { useHistory } from "react-router-dom";
 import Button from '@material-ui/core/Button';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { InputLogin, Form } from './styles';
-import AlertaErro from '../../compoents/alertaErro';
-import AlertaInfo from '../../compoents/alertaInfo';
-import { ApplicationState } from '../../store/index'
+import { Usuarios } from '../../services/api';
+import AlertaErro from '../../components/alertaErro';
+import AlertaInfo from '../../components/alertaInfo';
+import { ApplicationState } from '../../store/index';
 import Usuario from '../../store/reducers/usuario/types';
 import { actionCreators as ActionsSessao } from '../../store/reducers/sessao/actions';
 import { actionCreators as ActionsUsuario } from '../../store/reducers/usuario/actions';
@@ -50,7 +49,7 @@ const FormLogin: React.FC = () => {
     }
 
     usuariosReducer.data.forEach((usuario: Usuario) => {
-      if (usuario.email == dadosLogin?.email && usuario.password === dadosLogin.password) {
+      if (usuario.email === dadosLogin?.email && usuario.password === dadosLogin.password) {
         iniciarSessao(usuario);
       }
       else {

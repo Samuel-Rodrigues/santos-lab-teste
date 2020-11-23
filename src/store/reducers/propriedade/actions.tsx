@@ -1,4 +1,8 @@
-import Propriedade, { PropriedadeActionTypes, carregarPropriedadesNoReducer, carregarPropriedadesDoUsuario } from './types'
+import Propriedade, {
+  PropriedadeActionTypes,
+  carregarPropriedadesNoReducer,
+  carregarPropriedadesDoUsuario
+} from './types';
 
 export const actionCreators = {
   carregarPropriedadesNoReducer: (propriedades: Array<Propriedade>) =>

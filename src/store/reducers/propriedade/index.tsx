@@ -1,5 +1,5 @@
 import { Reducer } from 'redux';
-import Propriedade, { PropriedadesState, PropriedadeActionTypes } from '../propriedade/types'
+import Propriedade, { PropriedadesState, PropriedadeActionTypes } from '../propriedade/types';
 
 export const initialState: PropriedadesState = {
   data: [] as Array<Propriedade>,

@@ -1,7 +1,7 @@
 import React from 'react';
 
 import FormLogin from './form';
-import Logo from '../../compoents/logo';
+import Logo from '../../components/logo';
 import { ContainerLogin, TituloLogin } from './styles';
 
 const Login: React.FC = () => {

@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react';
-
 import { useSelector, useDispatch } from 'react-redux';
 
-import Maps from '../../compoents/maps';
+import Maps from '../../components/maps';
 import { ApplicationState } from '../../store';
 import { Propriedades } from '../../services/api';
 import Propriedade from '../../store/reducers/propriedade/types'

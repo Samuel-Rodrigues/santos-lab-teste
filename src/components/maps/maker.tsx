@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import Popper from '@material-ui/core/Popper';
 
 import { Productivity } from '../../store/reducers/propriedade/types'

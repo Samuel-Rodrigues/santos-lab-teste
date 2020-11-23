@@ -1,4 +1,5 @@
 import { Reducer } from 'redux';
+
 import Usuario, { UsuariosState, UsuarioActionTypes } from '../usuario/types';
 
 export const initialState: UsuariosState = {

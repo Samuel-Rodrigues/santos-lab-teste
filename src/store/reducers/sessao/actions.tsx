@@ -1,5 +1,5 @@
-import Usuario from '../usuario/types'
-import { SessaoActionTypes, iniciarSessao, encerrarSessao } from './types'
+import Usuario from '../usuario/types';
+import { SessaoActionTypes, iniciarSessao, encerrarSessao } from './types';
 
 export const actionCreators = {
   iniciarSessao: (usuario: Usuario) =>

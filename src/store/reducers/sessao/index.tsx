@@ -1,4 +1,5 @@
 import { Reducer } from 'redux';
+
 import Usuario from '../usuario/types';
 import { SessaoActionTypes, KnownAction, SessaoState } from './types';
 
